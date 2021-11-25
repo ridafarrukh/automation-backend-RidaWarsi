@@ -1,0 +1,176 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-25T18:44:41.015Z",
+    "end": "2021-11-25T18:44:48.176Z",
+    "duration": 7161,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "99a7cc75-4e28-4a37-b93b-9db47b40d928",
+      "title": "",
+      "fullFile": "cypress/integration/backend-test-application.spec.js",
+      "file": "cypress/integration/backend-test-application.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fa64dfaf-fa40-4150-85fc-ed21c9af4c2c",
+          "title": "testing auth",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create and Get all clients",
+              "fullTitle": "testing auth Create and Get all clients",
+              "timedOut": null,
+              "duration": 2133,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientpage.createClientrequest(cy);\nclientpage.getallClients(cy);\nlogoutapplication.logout(cy);",
+              "err": {},
+              "uuid": "b8b9eb3b-2701-441f-9058-f850db70b96d",
+              "parentUUID": "fa64dfaf-fa40-4150-85fc-ed21c9af4c2c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create and delete client",
+              "fullTitle": "testing auth Create and delete client",
+              "timedOut": null,
+              "duration": 897,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "deleteclient.createAndDeleteClient(cy);\nlogoutapplication.logout(cy);",
+              "err": {},
+              "uuid": "692bc273-c5c7-4cdd-9a55-0be10d28d1c7",
+              "parentUUID": "fa64dfaf-fa40-4150-85fc-ed21c9af4c2c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create and get all bills",
+              "fullTitle": "testing auth Create and get all bills",
+              "timedOut": null,
+              "duration": 1552,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billpage.createBillRequest(cy);\nbillpage.getallbills(cy);\nlogoutapplication.logout(cy);",
+              "err": {},
+              "uuid": "b67a0f04-af2d-44a7-bdb4-a582e275c81e",
+              "parentUUID": "fa64dfaf-fa40-4150-85fc-ed21c9af4c2c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create and delete bill",
+              "fullTitle": "testing auth Create and delete bill",
+              "timedOut": null,
+              "duration": 847,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billpage.createAndDeleteBill(cy);\nlogoutapplication.logout(cy);",
+              "err": {},
+              "uuid": "27b60867-148a-48c7-b363-1a22f980d3a1",
+              "parentUUID": "fa64dfaf-fa40-4150-85fc-ed21c9af4c2c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "create room",
+              "fullTitle": "testing auth create room",
+              "timedOut": null,
+              "duration": 1345,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "createRoom.createRoom(cy);\ncreateRoom.getallRooms(cy);\nlogoutapplication.logout(cy);",
+              "err": {},
+              "uuid": "16553ad3-5f60-4263-91f9-096f4ba77371",
+              "parentUUID": "fa64dfaf-fa40-4150-85fc-ed21c9af4c2c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b8b9eb3b-2701-441f-9058-f850db70b96d",
+            "692bc273-c5c7-4cdd-9a55-0be10d28d1c7",
+            "b67a0f04-af2d-44a7-bdb4-a582e275c81e",
+            "27b60867-148a-48c7-b363-1a22f980d3a1",
+            "16553ad3-5f60-4263-91f9-096f4ba77371"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6774,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.0.1"
+    }
+  }
+}
