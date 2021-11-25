@@ -54,7 +54,7 @@ function createBillRequest(cy) {
 
 
 
-//GET request to fetch all clients
+//GET request to fetch all bills
 
 function fetchAllBills(cy, value) {
     // cy.authenticateSession().then((response => {
@@ -79,7 +79,7 @@ function fetchAllBills(cy, value) {
     }))
 }
 
-// get all clients
+// get all bills
 function getallbills(cy) {
     cy.authenticateSession().then((response => {
         cy.request({

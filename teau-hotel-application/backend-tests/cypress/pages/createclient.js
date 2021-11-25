@@ -99,22 +99,7 @@ function fetchAllClients(cy, name, email, telephone) {
         }))
     }
 
-    /*
-   function logout(cy){
-       cy.request({
-        method: "POST",
-        url: 'http://localhost:3000/api/logout',
-        headers: {
-
-            'X-User-Auth': JSON.stringify(Cypress.env().LoginToken),
-            'Content-Type': 'application/json'
-        },
-    }).then(response => {
-       expect(response.status).to.eq(200)
-
-       })
-   }
-   */
+   
 
 
 
